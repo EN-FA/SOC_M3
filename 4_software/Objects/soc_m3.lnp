@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\objects\startup_cm3ds.o"
+".\objects\main.o"
+".\objects\sys.o"
+".\objects\uart.o"
+--library_type=microlib --strict --scatter ".\Objects\soc_m3.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\soc_m3.map" -o .\Objects\soc_m3.axf

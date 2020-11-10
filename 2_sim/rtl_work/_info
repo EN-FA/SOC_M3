@@ -1,0 +1,889 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/soc_m3/2_sim
+vahb_default_slave
+!s110 1604824096
+!i10b 1
+!s100 U0dY4iE>1GnRT8Ol6]WX?1
+Ih3HeOdHF3of8DJaD=A83h3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1599656902
+8D:/soc_m3/1_rtl/ip/ahb_default_slave.v
+FD:/soc_m3/1_rtl/ip/ahb_default_slave.v
+L0 30
+Z2 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z3 !s108 1604824095.000000
+!s107 D:/soc_m3/1_rtl/ip/ahb_default_slave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/ip|D:/soc_m3/1_rtl/ip/ahb_default_slave.v|
+!i113 1
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 !s92 -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vahb_rom
+Z7 !s110 1604824095
+!i10b 1
+!s100 hJORRDm85O0VHeVFXW>o]1
+I5Dk5>@6L:J;aVgi;Ce_c<0
+R1
+R0
+w1604823737
+8D:/soc_m3/1_rtl/ip/rom/ahb_rom.v
+FD:/soc_m3/1_rtl/ip/rom/ahb_rom.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/soc_m3/1_rtl/ip/rom/ahb_rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/ip/rom|D:/soc_m3/1_rtl/ip/rom/ahb_rom.v|
+!i113 1
+R4
+Z8 !s92 -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip/rom -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vahb_sram
+R7
+!i10b 1
+!s100 ]>XI1Y0O:XmaXFPaa<Z;l3
+IGH3CM6j[62<Hm^A]L>`PM0
+R1
+R0
+w1604823743
+8D:/soc_m3/1_rtl/ip/ahb_sram.v
+FD:/soc_m3/1_rtl/ip/ahb_sram.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/soc_m3/1_rtl/ip/ahb_sram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/ip|D:/soc_m3/1_rtl/ip/ahb_sram.v|
+!i113 1
+R4
+R5
+R6
+vahb_to_apb
+Z9 !s110 1604824098
+!i10b 1
+!s100 RoG7J26nW<eMiHlCQYQ`B0
+IQ<6Oh356RJHbVTFSBHdW[0
+R1
+R0
+w1599228202
+8D:/soc_m3/1_rtl/bus/apb/ahb_to_apb.v
+FD:/soc_m3/1_rtl/bus/apb/ahb_to_apb.v
+Z10 L0 31
+R2
+r1
+!s85 0
+31
+Z11 !s108 1604824098.000000
+!s107 D:/soc_m3/1_rtl/bus/apb/ahb_to_apb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/apb|D:/soc_m3/1_rtl/bus/apb/ahb_to_apb.v|
+!i113 1
+R4
+Z12 !s92 -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/apb -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vapb_reg
+R7
+!i10b 1
+!s100 91SLzTZmb2Fim=SDO@QHn0
+IY;=a3RMAf7n@9?8C<7a:=3
+R1
+R0
+w1600740082
+8D:/soc_m3/1_rtl/ip/apb_reg.v
+FD:/soc_m3/1_rtl/ip/apb_reg.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/soc_m3/1_rtl/ip/apb_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/ip|D:/soc_m3/1_rtl/ip/apb_reg.v|
+!i113 1
+R4
+R5
+R6
+vapb_slave_mux
+R9
+!i10b 1
+!s100 9g0oPJNQc3dK_LLS]YKF61
+I7nX6^ZT1zBo`IR[Ehi3Z12
+R1
+R0
+w1599228193
+8D:/soc_m3/1_rtl/bus/apb/apb_slave_mux.v
+FD:/soc_m3/1_rtl/bus/apb/apb_slave_mux.v
+L0 26
+R2
+r1
+!s85 0
+31
+R11
+!s107 D:/soc_m3/1_rtl/bus/apb/apb_slave_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/apb|D:/soc_m3/1_rtl/bus/apb/apb_slave_mux.v|
+!i113 1
+R4
+R12
+R6
+vapb_top
+R9
+!i10b 1
+!s100 ]DLHSi8Hmk]G7NIjH`<No0
+I5d=M[K?;0KKm3;CYndgTd3
+R1
+R0
+w1601813888
+8D:/soc_m3/1_rtl/bus/apb/apb_top.v
+FD:/soc_m3/1_rtl/bus/apb/apb_top.v
+L0 1
+R2
+r1
+!s85 0
+31
+R11
+!s107 D:/soc_m3/1_rtl/bus/apb/apb_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/apb|D:/soc_m3/1_rtl/bus/apb/apb_top.v|
+!i113 1
+R4
+R12
+R6
+vapb_uart
+R7
+!i10b 1
+!s100 D5Ob7Og]]K3]ZIlBM]lYj3
+IcojNQ[AVMjLCKE8BKm3ON1
+R1
+R0
+w1599228214
+8D:/soc_m3/1_rtl/ip/apb_uart.v
+FD:/soc_m3/1_rtl/ip/apb_uart.v
+L0 53
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/soc_m3/1_rtl/ip/apb_uart.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/ip|D:/soc_m3/1_rtl/ip/apb_uart.v|
+!i113 1
+R4
+R5
+R6
+vcortexm3ds_logic
+R9
+!i10b 1
+!s100 FajPZUcciPkK<g<ZSVTMa0
+IOdMA:REl:Kj05X2zXD`Xg3
+R1
+R0
+w1500376680
+8D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v
+FD:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v
+L0 27
+R2
+r1
+!s85 0
+31
+!s108 1604824096.000000
+!s107 D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/cortex_m3|D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/cortex_m3 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vIOBUF
+Z13 !s110 1604824099
+!i10b 1
+!s100 lhAIaabLUYAg7LFkT2enc2
+Il:UJO0bCM0`Uei=jSkj[T1
+R1
+R0
+Z14 w1601810556
+Z15 8D:/soc_m3/1_rtl/ip/iobuf/IOBUF.v
+Z16 FD:/soc_m3/1_rtl/ip/iobuf/IOBUF.v
+L0 110
+R2
+r1
+!s85 0
+31
+Z17 !s108 1604824099.000000
+Z18 !s107 D:/soc_m3/1_rtl/ip/iobuf/IOBUF.v|
+Z19 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/ip/iobuf|D:/soc_m3/1_rtl/ip/iobuf/IOBUF.v|
+!i113 1
+R4
+Z20 !s92 -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip/iobuf -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+n@i@o@b@u@f
+vIOBUF_iobuf_bidir_30p
+R13
+!i10b 1
+!s100 ?AX^0NXYCM9fB@T1nkIHo3
+I9N_0ze1P7@KgPob<oA@cz0
+R1
+R0
+R14
+R15
+R16
+L0 46
+R2
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R4
+R20
+R6
+n@i@o@b@u@f_iobuf_bidir_30p
+vmy_rom
+R9
+!i10b 1
+!s100 le1VOg]TIK3:1jE_c8;G92
+I;lkk@X^@LOMc:Q_Hoc8A;2
+R1
+R0
+w1604822658
+8D:/soc_m3/1_rtl/ip/rom/my_rom.v
+FD:/soc_m3/1_rtl/ip/rom/my_rom.v
+Z21 L0 39
+R2
+r1
+!s85 0
+31
+R11
+!s107 D:/soc_m3/1_rtl/ip/rom/my_rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/ip/rom|D:/soc_m3/1_rtl/ip/rom/my_rom.v|
+!i113 1
+R4
+R8
+R6
+vmybusmatrix5x7
+Z22 !s110 1604824092
+!i10b 1
+!s100 <@[:Pj>><`MkoBIS6BA>L1
+IcYj]7;[PH4HBn:L5;kc`S2
+R1
+R0
+Z23 w1604497155
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7.v
+L0 50
+R2
+r1
+!s85 0
+31
+Z24 !s108 1604824092.000000
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7.v|
+!i113 1
+R4
+Z25 !s92 -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vmybusmatrix5x7_arb_S0
+R7
+!i10b 1
+!s100 KC=KU<liQ:OQLR7C?S[1X3
+IV[LK@:;`=E0[h43:03B>`2
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S0.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S0.v
+Z26 L0 35
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S0.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_arb_@s0
+vmybusmatrix5x7_arb_S1
+R7
+!i10b 1
+!s100 idDLY=6NE2mdX=6Pk2P[E2
+IEF2`1:eKO_jJC_EK]_79A3
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S1.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S1.v
+R26
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S1.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_arb_@s1
+vmybusmatrix5x7_arb_S2
+R7
+!i10b 1
+!s100 n^JZE[k<TH4HCh1G=0A`=2
+InXPVSk;>[JjKPhe`DaOZa1
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S2.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S2.v
+R26
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S2.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_arb_@s2
+vmybusmatrix5x7_arb_S3
+Z27 !s110 1604824094
+!i10b 1
+!s100 T8YEdILBz2B__V6933U:10
+IO1^JQ8^NoPIKUQ;l3RBzn0
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S3.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S3.v
+R26
+R2
+r1
+!s85 0
+31
+Z28 !s108 1604824094.000000
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S3.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_arb_@s3
+vmybusmatrix5x7_arb_S4
+R27
+!i10b 1
+!s100 lfHRB4jD4G`h0MLdB1oOg3
+Im7NkLZ3Dcb@kkf5XDCih80
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S4.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S4.v
+R26
+R2
+r1
+!s85 0
+31
+R28
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S4.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_arb_@s4
+vmybusmatrix5x7_arb_S5
+R27
+!i10b 1
+!s100 34LH>dhhZ<4AKXc>nf;:A2
+I2VW_D_F3OoH6I5FWa^:6o2
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S5.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S5.v
+R26
+R2
+r1
+!s85 0
+31
+R28
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S5.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_arb_@s5
+vmybusmatrix5x7_arb_S6
+R27
+!i10b 1
+!s100 RC[96?DCG_J]aSMneTZ3m0
+IFd5WHM8lTbfHQQ><LKneo2
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S6.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S6.v
+R26
+R2
+r1
+!s85 0
+31
+R28
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S6.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S6.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_arb_@s6
+vmybusmatrix5x7_dec_M0
+R27
+!i10b 1
+!s100 H;24JaZ>HER6d1IEf`:eG3
+I1?XL>dXhF@DkSJWA7;ZYC1
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M0.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M0.v
+Z29 L0 36
+R2
+r1
+!s85 0
+31
+R28
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M0.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_dec_@m0
+vmybusmatrix5x7_dec_M1
+R27
+!i10b 1
+!s100 XkhECZzj_mKagX;E3<dm;2
+IWQla`<FkAGda9OfoTbS?^3
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M1.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M1.v
+R29
+R2
+r1
+!s85 0
+31
+R28
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M1.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_dec_@m1
+vmybusmatrix5x7_dec_M2
+R27
+!i10b 1
+!s100 Te=T=XfcR:D0SQJLh]:Sk1
+I^4YQ_GeO?m4Lji18Ze4nJ0
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M2.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M2.v
+R29
+R2
+r1
+!s85 0
+31
+R28
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M2.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_dec_@m2
+vmybusmatrix5x7_dec_M3
+Z30 !s110 1604824093
+!i10b 1
+!s100 00S6ON[9;Uc:>Vh3^ceLN0
+I`ecX=0L@8dSi`mj@53fLc3
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M3.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M3.v
+R29
+R2
+r1
+!s85 0
+31
+Z31 !s108 1604824093.000000
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M3.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_dec_@m3
+vmybusmatrix5x7_dec_M4
+R30
+!i10b 1
+!s100 0UQ`@mC4zn3fZCce_:Y:_0
+Ia?^2RlXcGKOQC6jz>H`7E3
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M4.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M4.v
+R29
+R2
+r1
+!s85 0
+31
+R31
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M4.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_dec_@m4
+vmybusmatrix5x7_default_slave
+R13
+!i10b 1
+!s100 T<:B9P=XZ6kk^A?df13M61
+IzYFa`h9f8?N2T9j>zzQlO1
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_default_slave.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_default_slave.v
+R10
+R2
+r1
+!s85 0
+31
+R17
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_default_slave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_default_slave.v|
+!i113 1
+R4
+R25
+R6
+vmybusmatrix5x7_ip
+R30
+!i10b 1
+!s100 TU=TEGDOGHZ8Tb4z>bWjS3
+IA?l:bDFL1B:FFGPz0K]b]2
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_ip.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_ip.v
+L0 32
+R2
+r1
+!s85 0
+31
+R31
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_ip.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_ip.v|
+!i113 1
+R4
+R25
+R6
+vmybusmatrix5x7_lite
+R30
+!i10b 1
+!s100 G:;OIg5b6Je3N]]WNj>4a0
+I>Oid8b6HCIe?KQ6INVB^m0
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+L0 33
+R2
+r1
+!s85 0
+31
+R31
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v|
+!i113 1
+R4
+R25
+R6
+vmybusmatrix5x7_op_S0
+R30
+!i10b 1
+!s100 V;cRM1?YK2F59B1oa_>zb1
+IFDgbB6RX75XVKKB6g_I>l3
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S0.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S0.v
+R26
+R2
+r1
+!s85 0
+31
+R31
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S0.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_op_@s0
+vmybusmatrix5x7_op_S1
+R30
+!i10b 1
+!s100 Jz]KH2U8W@4GIW=jg1YzL3
+IX:J];1EA`Jb995jz98g@_2
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S1.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S1.v
+R26
+R2
+r1
+!s85 0
+31
+R31
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S1.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_op_@s1
+vmybusmatrix5x7_op_S2
+R30
+!i10b 1
+!s100 3]AjFR0nRX8AT^=O6oQJ23
+IPY3zYUB9j5]R2XaLoTb0X1
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S2.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S2.v
+R26
+R2
+r1
+!s85 0
+31
+R31
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S2.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_op_@s2
+vmybusmatrix5x7_op_S3
+R30
+!i10b 1
+!s100 @X1G0?<CNh^SLMMLOz>C=2
+IIO6U]b6U0cX1f7e^z]OHm2
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S3.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S3.v
+R26
+R2
+r1
+!s85 0
+31
+R24
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S3.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_op_@s3
+vmybusmatrix5x7_op_S4
+R22
+!i10b 1
+!s100 zneV>=NEooAA^e5[Dc1102
+Ia:c_D6[OJHzMS7g4O:d?12
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S4.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S4.v
+R26
+R2
+r1
+!s85 0
+31
+R24
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S4.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_op_@s4
+vmybusmatrix5x7_op_S5
+R22
+!i10b 1
+!s100 k:B3n>?fiai:G[A3`gWg`3
+Ib75cJzKcRLcQ^[L>Yb2GH1
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S5.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S5.v
+R26
+R2
+r1
+!s85 0
+31
+R24
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S5.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_op_@s5
+vmybusmatrix5x7_op_S6
+R22
+!i10b 1
+!s100 gRHC99oIhb8e@P:<W`aUS2
+IJK=1hhdW?hNN0a6m1J3Ja2
+R1
+R0
+R23
+8D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S6.v
+FD:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S6.v
+R26
+R2
+r1
+!s85 0
+31
+R24
+!s107 D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S6.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7|D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S6.v|
+!i113 1
+R4
+R25
+R6
+nmybusmatrix5x7_op_@s6
+vpll
+R13
+!i10b 1
+!s100 MC:9H8LKSDV]6z2XJb3QF0
+I26KPITQiN=OL0a=I:ZHEz2
+R1
+R0
+w1600422393
+8D:/soc_m3/1_rtl/ip/pll/pll.v
+FD:/soc_m3/1_rtl/ip/pll/pll.v
+R21
+R2
+r1
+!s85 0
+31
+R17
+!s107 D:/soc_m3/1_rtl/ip/pll/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl/ip/pll|D:/soc_m3/1_rtl/ip/pll/pll.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip/pll -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vpll_altpll
+R13
+!i10b 1
+!s100 VMJnj@KPlg=MI>oCDYJR>0
+I1N<naE689GD>KGio3=IoY2
+R1
+R0
+w1600422542
+8D:/soc_m3/3_syn/db/pll_altpll.v
+FD:/soc_m3/3_syn/db/pll_altpll.v
+L0 29
+R2
+r1
+!s85 0
+31
+R17
+!s107 D:/soc_m3/3_syn/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/3_syn/db|D:/soc_m3/3_syn/db/pll_altpll.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/soc_m3/3_syn/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vsoc_m3_top
+R9
+!i10b 1
+!s100 4PZ;WfeZ0G1mNGFZN4K;S0
+Iz4SlSGQ7ZI]_5DXUhC^IJ3
+R1
+R0
+w1604823617
+8D:/soc_m3/1_rtl/soc_m3_top.v
+FD:/soc_m3/1_rtl/soc_m3_top.v
+L0 1
+R2
+r1
+!s85 0
+31
+R11
+!s107 D:/soc_m3/1_rtl/soc_m3_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/1_rtl|D:/soc_m3/1_rtl/soc_m3_top.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/soc_m3/1_rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vtb_soc_m3
+!s110 1604824100
+!i10b 1
+!s100 WJBQOa4OS]ml=dR:W6CaR0
+I_IS1YYh_UGN]IEo6o2zaT0
+R1
+R0
+w1602298343
+8D:/soc_m3/3_syn/../2_sim/tb_soc_m3.v
+FD:/soc_m3/3_syn/../2_sim/tb_soc_m3.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1604824100.000000
+!s107 D:/soc_m3/3_syn/../2_sim/tb_soc_m3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/soc_m3/3_syn/../2_sim|D:/soc_m3/3_syn/../2_sim/tb_soc_m3.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/soc_m3/3_syn/../2_sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6

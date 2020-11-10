@@ -1,0 +1,1212 @@
+# Reading D:/APP/modeltech64_10.6d/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do soc_m3_top_run_msim_rtl_verilog.do
+# if ![file isdirectory verilog_libs] {
+# 	file mkdir verilog_libs
+# }
+# 
+# vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
+# vmap altera_ver ./verilog_libs/altera_ver
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap altera_ver ./verilog_libs/altera_ver 
+# Modifying D:\APP\Xilinx\Xlib\modelsim.ini
+# vlog -vlog01compat -work altera_ver {d:/app/intelfpga/17.1/quartus/eda/sim_lib/altera_primitives.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:05 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work altera_ver d:/app/intelfpga/17.1/quartus/eda/sim_lib/altera_primitives.v 
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module dffeas_pr
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_LOW_SCLR_PRIORITY
+# -- Compiling UDP PRIM_GDFF_HIGH
+# -- Compiling UDP PRIM_GDFF_HIGH_SCLR_PRIORITY
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	dffeas_pr
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+# End time: 16:28:06 on Nov 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/lpm_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/lpm_ver".
+# vmap lpm_ver ./verilog_libs/lpm_ver
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap lpm_ver ./verilog_libs/lpm_ver 
+# Modifying D:\APP\Xilinx\Xlib\modelsim.ini
+# vlog -vlog01compat -work lpm_ver {d:/app/intelfpga/17.1/quartus/eda/sim_lib/220model.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:07 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/app/intelfpga/17.1/quartus/eda/sim_lib/220model.v 
+# -- Compiling module LPM_MEMORY_INITIALIZATION
+# -- Compiling module LPM_HINT_EVALUATION
+# -- Compiling module LPM_DEVICE_FAMILIES
+# -- Compiling module lpm_constant
+# -- Compiling module lpm_inv
+# -- Compiling module lpm_and
+# -- Compiling module lpm_or
+# -- Compiling module lpm_xor
+# -- Compiling module lpm_bustri
+# -- Compiling module lpm_mux
+# -- Compiling module lpm_decode
+# -- Compiling module lpm_clshift
+# -- Compiling module lpm_add_sub
+# -- Compiling module lpm_compare
+# -- Compiling module lpm_mult
+# -- Compiling module lpm_divide
+# -- Compiling module lpm_abs
+# -- Compiling module lpm_counter
+# -- Compiling module lpm_latch
+# -- Compiling module lpm_ff
+# -- Compiling module lpm_shiftreg
+# -- Compiling module lpm_ram_dq
+# -- Compiling module lpm_ram_dp
+# -- Compiling module lpm_ram_io
+# -- Compiling module lpm_rom
+# -- Compiling module lpm_fifo
+# -- Compiling module lpm_fifo_dc_dffpipe
+# -- Compiling module lpm_fifo_dc_fefifo
+# -- Compiling module lpm_fifo_dc_async
+# -- Compiling module lpm_fifo_dc
+# -- Compiling module lpm_inpad
+# -- Compiling module lpm_outpad
+# -- Compiling module lpm_bipad
+# 
+# Top level modules:
+# 	lpm_constant
+# 	lpm_inv
+# 	lpm_and
+# 	lpm_or
+# 	lpm_xor
+# 	lpm_bustri
+# 	lpm_mux
+# 	lpm_decode
+# 	lpm_clshift
+# 	lpm_add_sub
+# 	lpm_compare
+# 	lpm_mult
+# 	lpm_divide
+# 	lpm_abs
+# 	lpm_counter
+# 	lpm_latch
+# 	lpm_ff
+# 	lpm_shiftreg
+# 	lpm_ram_dq
+# 	lpm_ram_dp
+# 	lpm_ram_io
+# 	lpm_rom
+# 	lpm_fifo
+# 	lpm_fifo_dc
+# 	lpm_inpad
+# 	lpm_outpad
+# 	lpm_bipad
+# End time: 16:28:07 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/sgate_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/sgate_ver".
+# vmap sgate_ver ./verilog_libs/sgate_ver
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap sgate_ver ./verilog_libs/sgate_ver 
+# Modifying D:\APP\Xilinx\Xlib\modelsim.ini
+# vlog -vlog01compat -work sgate_ver {d:/app/intelfpga/17.1/quartus/eda/sim_lib/sgate.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:07 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/app/intelfpga/17.1/quartus/eda/sim_lib/sgate.v 
+# -- Compiling module oper_add
+# -- Compiling module oper_addsub
+# -- Compiling module mux21
+# -- Compiling module io_buf_tri
+# -- Compiling module io_buf_opdrn
+# -- Compiling module oper_mult
+# -- Compiling module tri_bus
+# -- Compiling module oper_div
+# -- Compiling module oper_mod
+# -- Compiling module oper_left_shift
+# -- Compiling module oper_right_shift
+# -- Compiling module oper_rotate_left
+# -- Compiling module oper_rotate_right
+# -- Compiling module oper_less_than
+# -- Compiling module oper_mux
+# -- Compiling module oper_selector
+# -- Compiling module oper_decoder
+# -- Compiling module oper_bus_mux
+# -- Compiling module oper_latch
+# 
+# Top level modules:
+# 	oper_add
+# 	oper_addsub
+# 	mux21
+# 	io_buf_tri
+# 	io_buf_opdrn
+# 	oper_mult
+# 	tri_bus
+# 	oper_div
+# 	oper_mod
+# 	oper_left_shift
+# 	oper_right_shift
+# 	oper_rotate_left
+# 	oper_rotate_right
+# 	oper_less_than
+# 	oper_mux
+# 	oper_selector
+# 	oper_decoder
+# 	oper_bus_mux
+# 	oper_latch
+# End time: 16:28:07 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_mf_ver".
+# vmap altera_mf_ver ./verilog_libs/altera_mf_ver
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap altera_mf_ver ./verilog_libs/altera_mf_ver 
+# Modifying D:\APP\Xilinx\Xlib\modelsim.ini
+# vlog -vlog01compat -work altera_mf_ver {d:/app/intelfpga/17.1/quartus/eda/sim_lib/altera_mf.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:08 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/app/intelfpga/17.1/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 16:28:09 on Nov 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_lnsim_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_lnsim_ver".
+# vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver 
+# Modifying D:\APP\Xilinx\Xlib\modelsim.ini
+# vlog -sv -work altera_lnsim_ver {d:/app/intelfpga/17.1/quartus/eda/sim_lib/altera_lnsim.sv}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:10 on Nov 08,2020
+# vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/app/intelfpga/17.1/quartus/eda/sim_lib/altera_lnsim.sv 
+# -- Compiling package altera_lnsim_functions
+# -- Compiling package altera_generic_pll_functions
+# -- Compiling module generic_pll
+# -- Importing package altera_lnsim_functions
+# -- Importing package altera_generic_pll_functions
+# -- Compiling module generic_cdr
+# -- Compiling module common_28nm_ram_pulse_generator
+# -- Compiling module common_28nm_ram_register
+# -- Compiling module common_28nm_ram_block
+# -- Compiling module generic_m20k
+# -- Compiling module generic_m10k
+# -- Compiling module common_28nm_mlab_cell_pulse_generator
+# -- Compiling module common_28nm_mlab_latch
+# -- Compiling module common_28nm_mlab_cell_core
+# -- Compiling module common_porta_latches
+# -- Compiling module generic_28nm_hp_mlab_cell_impl
+# -- Compiling module common_porta_registers
+# -- Compiling module generic_28nm_lc_mlab_cell_impl
+# -- Compiling module common_28nm_lutram_register
+# -- Compiling module generic_14nm_mlab_cell_impl
+# -- Compiling module common_14nm_lutram_register
+# -- Compiling module generic_mux
+# -- Compiling module generic_device_pll
+# -- Compiling module altera_mult_add
+# -- Compiling module altera_mult_add_rtl
+# -- Compiling module ama_signed_extension_function
+# -- Compiling module ama_dynamic_signed_function
+# -- Compiling module ama_register_function
+# -- Compiling module ama_register_with_ext_function
+# -- Compiling module ama_data_split_reg_ext_function
+# -- Compiling module ama_coef_reg_ext_function
+# -- Compiling module ama_adder_function
+# -- Compiling module ama_multiplier_function
+# -- Compiling module ama_preadder_function
+# -- Compiling module ama_chainout_adder_accumulator_function
+# -- Compiling module ama_systolic_adder_function
+# -- Compiling module ama_scanchain
+# -- Compiling module ama_latency_function
+# -- Compiling module altera_pll_reconfig_tasks
+# -- Compiling module altera_syncram
+# -- Compiling module altera_syncram_forwarding_logic
+# -- Compiling module ALTERA_LNSIM_MEMORY_INITIALIZATION
+# -- Compiling module altera_stratixv_pll
+# -- Compiling module altera_arriav_pll
+# -- Compiling module altera_arriavgz_pll
+# -- Compiling module altera_cyclonev_pll
+# -- Compiling module altera_pll
+# -- Compiling module dps_extra_kick
+# -- Compiling module dprio_init
+# -- Compiling module dps_pulse_gen
+# -- Compiling module altera_iopll
+# -- Compiling module dps_pulse_gen_iopll
+# -- Compiling module twentynm_iopll_arlol
+# -- Compiling module fourteennm_altera_iopll
+# -- Compiling module dps_pulse_gen_fourteennm_iopll
+# -- Compiling package fourteennm_iopll_functions
+# -- Compiling module fourteennm_simple_iopll
+# -- Importing package fourteennm_iopll_functions
+# -- Compiling module fourteennm_sub_iopll
+# -- Compiling module twentynm_iopll_ip
+# -- Compiling module altera_iopll_rotation_lcells
+# -- Compiling module altera_pll_dps_lcell_comb
+# -- Compiling module iopll_bootstrap
+# 
+# Top level modules:
+# 	generic_cdr
+# 	generic_m20k
+# 	generic_m10k
+# 	common_porta_latches
+# 	generic_28nm_hp_mlab_cell_impl
+# 	generic_28nm_lc_mlab_cell_impl
+# 	generic_14nm_mlab_cell_impl
+# 	generic_mux
+# 	generic_device_pll
+# 	altera_mult_add
+# 	altera_pll_reconfig_tasks
+# 	altera_syncram
+# 	altera_pll
+# 	altera_iopll
+# 	fourteennm_altera_iopll
+# 	fourteennm_simple_iopll
+# End time: 16:28:10 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/cycloneive_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cycloneive_ver".
+# vmap cycloneive_ver ./verilog_libs/cycloneive_ver
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap cycloneive_ver ./verilog_libs/cycloneive_ver 
+# Modifying D:\APP\Xilinx\Xlib\modelsim.ini
+# vlog -vlog01compat -work cycloneive_ver {d:/app/intelfpga/17.1/quartus/eda/sim_lib/cycloneive_atoms.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:11 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work cycloneive_ver d:/app/intelfpga/17.1/quartus/eda/sim_lib/cycloneive_atoms.v 
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
+# -- Compiling module cycloneive_dffe
+# -- Compiling module cycloneive_mux21
+# -- Compiling module cycloneive_mux41
+# -- Compiling module cycloneive_and1
+# -- Compiling module cycloneive_and16
+# -- Compiling module cycloneive_bmux21
+# -- Compiling module cycloneive_b17mux21
+# -- Compiling module cycloneive_nmux21
+# -- Compiling module cycloneive_b5mux21
+# -- Compiling module cycloneive_latch
+# -- Compiling module cycloneive_routing_wire
+# -- Compiling module cycloneive_m_cntr
+# -- Compiling module cycloneive_n_cntr
+# -- Compiling module cycloneive_scale_cntr
+# -- Compiling module cycloneive_pll_reg
+# -- Compiling module cycloneive_pll
+# -- Compiling module cycloneive_lcell_comb
+# -- Compiling module cycloneive_ff
+# -- Compiling module cycloneive_ram_pulse_generator
+# -- Compiling module cycloneive_ram_register
+# -- Compiling module cycloneive_ram_block
+# -- Compiling module cycloneive_mac_data_reg
+# -- Compiling module cycloneive_mac_sign_reg
+# -- Compiling module cycloneive_mac_mult_internal
+# -- Compiling module cycloneive_mac_mult
+# -- Compiling module cycloneive_mac_out
+# -- Compiling module cycloneive_io_ibuf
+# -- Compiling module cycloneive_io_obuf
+# -- Compiling module cycloneive_ddio_out
+# -- Compiling module cycloneive_ddio_oe
+# -- Compiling module cycloneive_pseudo_diff_out
+# -- Compiling module cycloneive_io_pad
+# -- Compiling module cycloneive_asmiblock
+# -- Compiling module cycloneive_ena_reg
+# -- Compiling module cycloneive_clkctrl
+# -- Compiling module cycloneive_rublock
+# -- Compiling module cycloneive_apfcontroller
+# -- Compiling module cycloneive_termination_ctrl
+# -- Compiling module cycloneive_termination_rupdn
+# -- Compiling module cycloneive_termination
+# -- Compiling module cycloneive_jtag
+# -- Compiling module cycloneive_crcblock
+# -- Compiling module cycloneive_oscillator
+# 
+# Top level modules:
+# 	cycloneive_dffe
+# 	cycloneive_and1
+# 	cycloneive_and16
+# 	cycloneive_bmux21
+# 	cycloneive_b17mux21
+# 	cycloneive_nmux21
+# 	cycloneive_b5mux21
+# 	cycloneive_pll_reg
+# 	cycloneive_pll
+# 	cycloneive_lcell_comb
+# 	cycloneive_ff
+# 	cycloneive_ram_block
+# 	cycloneive_mac_mult
+# 	cycloneive_mac_out
+# 	cycloneive_io_ibuf
+# 	cycloneive_io_obuf
+# 	cycloneive_ddio_out
+# 	cycloneive_ddio_oe
+# 	cycloneive_pseudo_diff_out
+# 	cycloneive_io_pad
+# 	cycloneive_asmiblock
+# 	cycloneive_clkctrl
+# 	cycloneive_rublock
+# 	cycloneive_apfcontroller
+# 	cycloneive_termination
+# 	cycloneive_jtag
+# 	cycloneive_crcblock
+# 	cycloneive_oscillator
+# End time: 16:28:11 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work rtl_work 
+# Modifying D:\APP\Xilinx\Xlib\modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:12 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7.v 
+# -- Compiling module mybusmatrix5x7
+# 
+# Top level modules:
+# 	mybusmatrix5x7
+# End time: 16:28:12 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S6.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:12 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S6.v 
+# -- Compiling module mybusmatrix5x7_op_S6
+# 
+# Top level modules:
+# 	mybusmatrix5x7_op_S6
+# End time: 16:28:12 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S5.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:12 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S5.v 
+# -- Compiling module mybusmatrix5x7_op_S5
+# 
+# Top level modules:
+# 	mybusmatrix5x7_op_S5
+# End time: 16:28:12 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S4.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:12 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S4.v 
+# -- Compiling module mybusmatrix5x7_op_S4
+# 
+# Top level modules:
+# 	mybusmatrix5x7_op_S4
+# End time: 16:28:12 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S3.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:12 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S3.v 
+# -- Compiling module mybusmatrix5x7_op_S3
+# 
+# Top level modules:
+# 	mybusmatrix5x7_op_S3
+# End time: 16:28:13 on Nov 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S2.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:13 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S2.v 
+# -- Compiling module mybusmatrix5x7_op_S2
+# 
+# Top level modules:
+# 	mybusmatrix5x7_op_S2
+# End time: 16:28:13 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S1.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:13 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S1.v 
+# -- Compiling module mybusmatrix5x7_op_S1
+# 
+# Top level modules:
+# 	mybusmatrix5x7_op_S1
+# End time: 16:28:13 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S0.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:13 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_op_S0.v 
+# -- Compiling module mybusmatrix5x7_op_S0
+# 
+# Top level modules:
+# 	mybusmatrix5x7_op_S0
+# End time: 16:28:13 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:13 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v 
+# -- Compiling module mybusmatrix5x7_lite
+# 
+# Top level modules:
+# 	mybusmatrix5x7_lite
+# End time: 16:28:13 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_ip.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:13 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_ip.v 
+# -- Compiling module mybusmatrix5x7_ip
+# 
+# Top level modules:
+# 	mybusmatrix5x7_ip
+# End time: 16:28:13 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M4.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:13 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M4.v 
+# -- Compiling module mybusmatrix5x7_dec_M4
+# 
+# Top level modules:
+# 	mybusmatrix5x7_dec_M4
+# End time: 16:28:13 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M3.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:13 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M3.v 
+# -- Compiling module mybusmatrix5x7_dec_M3
+# 
+# Top level modules:
+# 	mybusmatrix5x7_dec_M3
+# End time: 16:28:14 on Nov 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M2.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:14 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M2.v 
+# -- Compiling module mybusmatrix5x7_dec_M2
+# 
+# Top level modules:
+# 	mybusmatrix5x7_dec_M2
+# End time: 16:28:14 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M1.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:14 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M1.v 
+# -- Compiling module mybusmatrix5x7_dec_M1
+# 
+# Top level modules:
+# 	mybusmatrix5x7_dec_M1
+# End time: 16:28:14 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M0.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:14 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_dec_M0.v 
+# -- Compiling module mybusmatrix5x7_dec_M0
+# 
+# Top level modules:
+# 	mybusmatrix5x7_dec_M0
+# End time: 16:28:14 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S6.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:14 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S6.v 
+# -- Compiling module mybusmatrix5x7_arb_S6
+# 
+# Top level modules:
+# 	mybusmatrix5x7_arb_S6
+# End time: 16:28:14 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S5.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:14 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S5.v 
+# -- Compiling module mybusmatrix5x7_arb_S5
+# 
+# Top level modules:
+# 	mybusmatrix5x7_arb_S5
+# End time: 16:28:14 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S4.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:14 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S4.v 
+# -- Compiling module mybusmatrix5x7_arb_S4
+# 
+# Top level modules:
+# 	mybusmatrix5x7_arb_S4
+# End time: 16:28:14 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S3.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:14 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S3.v 
+# -- Compiling module mybusmatrix5x7_arb_S3
+# 
+# Top level modules:
+# 	mybusmatrix5x7_arb_S3
+# End time: 16:28:14 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S2.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:15 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S2.v 
+# -- Compiling module mybusmatrix5x7_arb_S2
+# 
+# Top level modules:
+# 	mybusmatrix5x7_arb_S2
+# End time: 16:28:15 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S1.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:15 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S1.v 
+# -- Compiling module mybusmatrix5x7_arb_S1
+# 
+# Top level modules:
+# 	mybusmatrix5x7_arb_S1
+# End time: 16:28:15 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S0.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:15 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_arb_S0.v 
+# -- Compiling module mybusmatrix5x7_arb_S0
+# 
+# Top level modules:
+# 	mybusmatrix5x7_arb_S0
+# End time: 16:28:15 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip/rom {D:/soc_m3/1_rtl/ip/rom/ahb_rom.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:15 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/ip/rom" D:/soc_m3/1_rtl/ip/rom/ahb_rom.v 
+# -- Compiling module ahb_rom
+# 
+# Top level modules:
+# 	ahb_rom
+# End time: 16:28:15 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip {D:/soc_m3/1_rtl/ip/ahb_sram.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:15 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/ip" D:/soc_m3/1_rtl/ip/ahb_sram.v 
+# -- Compiling module ahb_sram
+# 
+# Top level modules:
+# 	ahb_sram
+# End time: 16:28:15 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip {D:/soc_m3/1_rtl/ip/apb_reg.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:15 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/ip" D:/soc_m3/1_rtl/ip/apb_reg.v 
+# -- Compiling module apb_reg
+# 
+# Top level modules:
+# 	apb_reg
+# End time: 16:28:15 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip {D:/soc_m3/1_rtl/ip/apb_uart.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:15 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/ip" D:/soc_m3/1_rtl/ip/apb_uart.v 
+# -- Compiling module apb_uart
+# 
+# Top level modules:
+# 	apb_uart
+# End time: 16:28:15 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip {D:/soc_m3/1_rtl/ip/ahb_default_slave.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:15 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/ip" D:/soc_m3/1_rtl/ip/ahb_default_slave.v 
+# -- Compiling module ahb_default_slave
+# 
+# Top level modules:
+# 	ahb_default_slave
+# End time: 16:28:16 on Nov 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/cortex_m3 {D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:16 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/cortex_m3" D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v 
+# -- Compiling module cortexm3ds_logic
+# 
+# Top level modules:
+# 	cortexm3ds_logic
+# End time: 16:28:18 on Nov 08,2020, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/apb {D:/soc_m3/1_rtl/bus/apb/apb_top.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:18 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/apb" D:/soc_m3/1_rtl/bus/apb/apb_top.v 
+# -- Compiling module apb_top
+# 
+# Top level modules:
+# 	apb_top
+# End time: 16:28:18 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/apb {D:/soc_m3/1_rtl/bus/apb/apb_slave_mux.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:18 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/apb" D:/soc_m3/1_rtl/bus/apb/apb_slave_mux.v 
+# -- Compiling module apb_slave_mux
+# 
+# Top level modules:
+# 	apb_slave_mux
+# End time: 16:28:18 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/apb {D:/soc_m3/1_rtl/bus/apb/ahb_to_apb.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:18 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/apb" D:/soc_m3/1_rtl/bus/apb/ahb_to_apb.v 
+# -- Compiling module ahb_to_apb
+# 
+# Top level modules:
+# 	ahb_to_apb
+# End time: 16:28:18 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl {D:/soc_m3/1_rtl/soc_m3_top.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:18 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl" D:/soc_m3/1_rtl/soc_m3_top.v 
+# -- Compiling module soc_m3_top
+# 
+# Top level modules:
+# 	soc_m3_top
+# End time: 16:28:18 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip/rom {D:/soc_m3/1_rtl/ip/rom/my_rom.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:18 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/ip/rom" D:/soc_m3/1_rtl/ip/rom/my_rom.v 
+# -- Compiling module my_rom
+# 
+# Top level modules:
+# 	my_rom
+# End time: 16:28:19 on Nov 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip/iobuf {D:/soc_m3/1_rtl/ip/iobuf/IOBUF.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:19 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/ip/iobuf" D:/soc_m3/1_rtl/ip/iobuf/IOBUF.v 
+# -- Compiling module IOBUF_iobuf_bidir_30p
+# -- Compiling module IOBUF
+# 
+# Top level modules:
+# 	IOBUF
+# End time: 16:28:19 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/ip/pll {D:/soc_m3/1_rtl/ip/pll/pll.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:19 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/ip/pll" D:/soc_m3/1_rtl/ip/pll/pll.v 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 16:28:19 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/3_syn/db {D:/soc_m3/3_syn/db/pll_altpll.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:19 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/3_syn/db" D:/soc_m3/3_syn/db/pll_altpll.v 
+# -- Compiling module pll_altpll
+# 
+# Top level modules:
+# 	pll_altpll
+# End time: 16:28:19 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7 {D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_default_slave.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:19 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7" D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_default_slave.v 
+# -- Compiling module mybusmatrix5x7_default_slave
+# 
+# Top level modules:
+# 	mybusmatrix5x7_default_slave
+# End time: 16:28:20 on Nov 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/soc_m3/3_syn/../2_sim {D:/soc_m3/3_syn/../2_sim/tb_soc_m3.v}
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:28:20 on Nov 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/soc_m3/3_syn/../2_sim" D:/soc_m3/3_syn/../2_sim/tb_soc_m3.v 
+# -- Compiling module tb_soc_m3
+# 
+# Top level modules:
+# 	tb_soc_m3
+# End time: 16:28:20 on Nov 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_soc_m3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_soc_m3 
+# Start time: 16:28:20 on Nov 08,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_soc_m3
+# Loading work.soc_m3_top
+# Loading work.cortexm3ds_logic
+# Loading work.mybusmatrix5x7_lite
+# Loading work.mybusmatrix5x7
+# Loading work.mybusmatrix5x7_ip
+# Loading work.mybusmatrix5x7_dec_M0
+# Loading work.mybusmatrix5x7_default_slave
+# Loading work.mybusmatrix5x7_dec_M1
+# Loading work.mybusmatrix5x7_dec_M2
+# Loading work.mybusmatrix5x7_dec_M3
+# Loading work.mybusmatrix5x7_dec_M4
+# Loading work.mybusmatrix5x7_op_S0
+# Loading work.mybusmatrix5x7_arb_S0
+# Loading work.mybusmatrix5x7_op_S1
+# Loading work.mybusmatrix5x7_arb_S1
+# Loading work.mybusmatrix5x7_op_S2
+# Loading work.mybusmatrix5x7_arb_S2
+# Loading work.mybusmatrix5x7_op_S3
+# Loading work.mybusmatrix5x7_arb_S3
+# Loading work.mybusmatrix5x7_op_S4
+# Loading work.mybusmatrix5x7_arb_S4
+# Loading work.mybusmatrix5x7_op_S5
+# Loading work.mybusmatrix5x7_arb_S5
+# Loading work.mybusmatrix5x7_op_S6
+# Loading work.mybusmatrix5x7_arb_S6
+# Loading work.ahb_rom
+# Loading work.my_rom
+# Loading altera_mf_ver.altsyncram
+# Loading work.ahb_sram
+# Loading work.ahb_default_slave
+# Loading work.apb_top
+# Loading work.ahb_to_apb
+# Loading work.apb_slave_mux
+# Loading work.apb_uart
+# Loading work.apb_reg
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Too few port connections. Expected 122, found 71.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/m3_logic File: D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(158): [PCDPC] - Port size (240) does not match connection size (231) for port 'INTISR'. The port definition is at: D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/m3_logic File: D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'TDO'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'nTDOEN'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'SWV'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'JTAGNSW'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'TRACECLK'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'TRACEDATA'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'MEMATTRI'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'MEMATTRD'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'EXREQD'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'MEMATTRS'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'EXREQS'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'BRCHSTAT'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HALTED'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'LOCKUP'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'SLEEPDEEP'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'ETMINTNUM'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'ETMINTSTAT'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'TXEV'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'TRCENA'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'CURRPRI'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'DBGRESTARTED'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'SLEEPHOLDACKn'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'GATEHCLK'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHADDR'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHTRANS'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHSIZE'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHBURST'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHPROT'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHWDATA'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHWRITE'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHRDATA'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHREADY'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHRESP'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'WICENACK'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'WAKEUP'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r0_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r1_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r2_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r3_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r4_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r5_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r6_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r7_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r8_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r9_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r10_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r11_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r12_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_msp_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_psp_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_pc_o'.
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS0'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(105).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS1'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(111).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS2'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(117).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS3'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(123).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS4'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(129).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS5'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(135).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS6'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(141).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (32) does not match connection size (17) for port 'HADDRS0'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(151).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (32) does not match connection size (18) for port 'HADDRS1'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(165).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPM0'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(250).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPM1'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(256).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPM2'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(262).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPM3'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(268).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPM4'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(274).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(781): [PCDPC] - Port size (16) does not match connection size (32) for port 'haddr'. The port definition is at: D:/soc_m3/1_rtl/bus/apb/apb_top.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_slave3_apb_top File: D:/soc_m3/1_rtl/bus/apb/apb_top.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint  \
+sim:/tb_soc_m3/soc_m3/haddri \
+sim:/tb_soc_m3/soc_m3/htransi \
+sim:/tb_soc_m3/soc_m3/hsizei \
+sim:/tb_soc_m3/soc_m3/hbursti \
+sim:/tb_soc_m3/soc_m3/hproti \
+sim:/tb_soc_m3/soc_m3/hrdatai \
+sim:/tb_soc_m3/soc_m3/hreadyi \
+sim:/tb_soc_m3/soc_m3/hrespi \
+sim:/tb_soc_m3/soc_m3/haddrd \
+sim:/tb_soc_m3/soc_m3/htransd \
+sim:/tb_soc_m3/soc_m3/hsized \
+sim:/tb_soc_m3/soc_m3/hburstd \
+sim:/tb_soc_m3/soc_m3/hprotd \
+sim:/tb_soc_m3/soc_m3/hwdatad \
+sim:/tb_soc_m3/soc_m3/hwrited \
+sim:/tb_soc_m3/soc_m3/hrdatad \
+sim:/tb_soc_m3/soc_m3/hreadyd \
+sim:/tb_soc_m3/soc_m3/hrespd \
+sim:/tb_soc_m3/soc_m3/hmasterd \
+sim:/tb_soc_m3/soc_m3/haddrs \
+sim:/tb_soc_m3/soc_m3/htranss \
+sim:/tb_soc_m3/soc_m3/hwrites \
+sim:/tb_soc_m3/soc_m3/hsizes \
+sim:/tb_soc_m3/soc_m3/hwdatas \
+sim:/tb_soc_m3/soc_m3/hbursts \
+sim:/tb_soc_m3/soc_m3/hprots \
+sim:/tb_soc_m3/soc_m3/hreadys \
+sim:/tb_soc_m3/soc_m3/hrdatas \
+sim:/tb_soc_m3/soc_m3/hresps \
+sim:/tb_soc_m3/soc_m3/hmasters
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Warning: (vsim-3017) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Too few port connections. Expected 122, found 71.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/m3_logic File: D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(158): [PCDPC] - Port size (240) does not match connection size (231) for port 'INTISR'. The port definition is at: D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/m3_logic File: D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'TDO'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'nTDOEN'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'SWV'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'JTAGNSW'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'TRACECLK'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'TRACEDATA'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'MEMATTRI'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'MEMATTRD'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'EXREQD'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'MEMATTRS'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'EXREQS'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'BRCHSTAT'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HALTED'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'LOCKUP'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'SLEEPDEEP'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'ETMINTNUM'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'ETMINTSTAT'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'TXEV'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'TRCENA'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'CURRPRI'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'DBGRESTARTED'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'SLEEPHOLDACKn'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'GATEHCLK'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHADDR'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHTRANS'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHSIZE'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHBURST'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHPROT'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHWDATA'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHWRITE'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHRDATA'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHREADY'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'HTMDHRESP'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'WICENACK'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'WAKEUP'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r0_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r1_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r2_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r3_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r4_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r5_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r6_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r7_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r8_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r9_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r10_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r11_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_r12_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_msp_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_psp_o'.
+# ** Warning: (vsim-3722) D:/soc_m3/1_rtl/soc_m3_top.v(158): [TFMPC] - Missing connection for port 'vis_pc_o'.
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS0'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(105).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS1'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(111).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS2'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(117).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS3'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(123).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS4'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(129).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS5'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(135).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPS6'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(141).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (32) does not match connection size (17) for port 'HADDRS0'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(151).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (32) does not match connection size (18) for port 'HADDRS1'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(165).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPM0'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(250).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPM1'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(256).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPM2'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(262).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPM3'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(268).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(448): [PCDPC] - Port size (1) does not match connection size (2) for port 'HRESPM4'. The port definition is at: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v(274).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_bus_5x7 File: D:/soc_m3/1_rtl/bus/ahb/mybusmatrix5x7/mybusmatrix5x7_lite.v
+# ** Warning: (vsim-3015) D:/soc_m3/1_rtl/soc_m3_top.v(781): [PCDPC] - Port size (16) does not match connection size (32) for port 'haddr'. The port definition is at: D:/soc_m3/1_rtl/bus/apb/apb_top.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_soc_m3/soc_m3/ahb_slave3_apb_top File: D:/soc_m3/1_rtl/bus/apb/apb_top.v
+run
+# End time: 16:34:46 on Nov 08,2020, Elapsed time: 0:06:26
+# Errors: 0, Warnings: 0

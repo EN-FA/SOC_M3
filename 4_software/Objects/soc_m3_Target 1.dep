@@ -1,0 +1,16 @@
+Dependencies for Project 'soc_m3', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_CM3DS.s)(0x5F696369)(--cpu Cortex-M3 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-I"D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include"-I"D:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 524" --pd "ARMCM3 SETA 1"--list .\listings\startup_cm3ds.lst --xref -o .\objects\startup_cm3ds.o --depend .\objects\startup_cm3ds.d)
+F (.\main.c)(0x5FA94CAA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\sys -I ..\4_software-I.\RTE\_Target_1-I"D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include"-I"D:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\sys\sys.h)(0x5FA92B7F)
+I (.\sys\soc_m3.h)(0x5FA94D60)
+I (.\sys\uart.h)(0x5FA93DE8)
+F (.\sys\sys.c)(0x5FA92B66)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\sys -I ..\4_software-I.\RTE\_Target_1-I"D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include"-I"D:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DARMCM3-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (D:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (sys\sys.h)(0x5FA92B7F)
+F (.\sys\uart.c)(0x5FA946E3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\sys -I ..\4_software-I.\RTE\_Target_1-I"D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include"-I"D:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -DARMCM3-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (sys\soc_m3.h)(0x5FA94D60)
+I (sys\sys.h)(0x5FA92B7F)
+I (sys\uart.h)(0x5FA93DE8)
+I (D:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)

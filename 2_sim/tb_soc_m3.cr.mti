@@ -1,0 +1,232 @@
+D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S1.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S1.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_op_S1
+
+Top level modules:
+	mybusmatrix4x7_op_S1
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_dec_M2.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_dec_M2.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_dec_M2
+
+Top level modules:
+	mybusmatrix4x7_dec_M2
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S3.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S3.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_arb_S3
+
+Top level modules:
+	mybusmatrix4x7_arb_S3
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S2.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S2.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_op_S2
+
+Top level modules:
+	mybusmatrix4x7_op_S2
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_dec_M3.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_dec_M3.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_dec_M3
+
+Top level modules:
+	mybusmatrix4x7_dec_M3
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S4.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S4.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_arb_S4
+
+Top level modules:
+	mybusmatrix4x7_arb_S4
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S3.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S3.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_op_S3
+
+Top level modules:
+	mybusmatrix4x7_op_S3
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S5.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S5.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_arb_S5
+
+Top level modules:
+	mybusmatrix4x7_arb_S5
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S4.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S4.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_op_S4
+
+Top level modules:
+	mybusmatrix4x7_op_S4
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S6.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S6.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_arb_S6
+
+Top level modules:
+	mybusmatrix4x7_arb_S6
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_lite.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_lite.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_lite
+
+Top level modules:
+	mybusmatrix4x7_lite
+
+} {} {}} D:/soc_m3/1_rtl/ip/ahb_to_sram.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/ip/ahb_to_sram.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ahb_to_sram
+
+Top level modules:
+	ahb_to_sram
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S5.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S5.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_op_S5
+
+Top level modules:
+	mybusmatrix4x7_op_S5
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S6.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S6.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_op_S6
+
+Top level modules:
+	mybusmatrix4x7_op_S6
+
+} {} {}} D:/soc_m3/1_rtl/ip/apb_reg.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/ip/apb_reg.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module apb_reg
+
+Top level modules:
+	apb_reg
+
+} {} {}} D:/soc_m3/2_sim/tb_soc_m3.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/2_sim/tb_soc_m3.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module tb_soc_m3
+
+Top level modules:
+	tb_soc_m3
+
+} {} {}} D:/soc_m3/1_rtl/bus/apb/apb_slave_mux.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/apb/apb_slave_mux.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module apb_slave_mux
+
+Top level modules:
+	apb_slave_mux
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_ip.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_ip.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_ip
+
+Top level modules:
+	mybusmatrix4x7_ip
+
+} {} {}} D:/soc_m3/1_rtl/bus/apb/ahb_to_apb.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/apb/ahb_to_apb.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ahb_to_apb
+
+Top level modules:
+	ahb_to_apb
+
+} {} {}} D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/cortex_m3/cortexm3ds_logic.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module cortexm3ds_logic
+
+Top level modules:
+	cortexm3ds_logic
+
+} {} {}} D:/soc_m3/1_rtl/soc_m3_top.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/soc_m3_top.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module soc_m3_top
+
+Top level modules:
+	soc_m3_top
+
+} {} {}} D:/soc_m3/1_rtl/ip/apb_uart.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/ip/apb_uart.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module apb_uart
+
+Top level modules:
+	apb_uart
+
+} {} {}} D:/soc_m3/1_rtl/ip/pll/pll.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/ip/pll/pll.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pll
+
+Top level modules:
+	pll
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_default_slave.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_default_slave.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_default_slave
+
+Top level modules:
+	mybusmatrix4x7_default_slave
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S0.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S0.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_arb_S0
+
+Top level modules:
+	mybusmatrix4x7_arb_S0
+
+} {} {}} D:/soc_m3/1_rtl/ip/ahb_rom.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/ip/ahb_rom.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ahb_rom
+
+Top level modules:
+	ahb_rom
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_dec_M0.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_dec_M0.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_dec_M0
+
+Top level modules:
+	mybusmatrix4x7_dec_M0
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S1.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S1.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_arb_S1
+
+Top level modules:
+	mybusmatrix4x7_arb_S1
+
+} {} {}} D:/soc_m3/1_rtl/ip/ahb_default_slave.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/ip/ahb_default_slave.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ahb_default_slave
+
+Top level modules:
+	ahb_default_slave
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S0.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_op_S0.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_op_S0
+
+Top level modules:
+	mybusmatrix4x7_op_S0
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_dec_M1.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_dec_M1.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_dec_M1
+
+Top level modules:
+	mybusmatrix4x7_dec_M1
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S2.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7_arb_S2.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7_arb_S2
+
+Top level modules:
+	mybusmatrix4x7_arb_S2
+
+} {} {}} D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7.v {1 {vlog -work work -novopt -stats=none D:/soc_m3/1_rtl/bus/ahb/mybusmatrix4x7/mybusmatrix4x7.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mybusmatrix4x7
+
+Top level modules:
+	mybusmatrix4x7
+
+} {} {}}

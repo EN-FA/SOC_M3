@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information:  ,  , LIC=SDA0P-MUXFH-12PLE-5V4A4-24WUC-KBSJ0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\soc_m3\4_software\soc_m3.uvprojx
+Project File Date:  11/05/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_CM3DS.s...
+compiling main.c...
+.\sys\sys.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\sys\soc_m3.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\sys\uart.h(98): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(36): warning:  #111-D: statement is unreachable
+  	return 0;
+main.c: 4 warnings, 0 errors
+compiling sys.c...
+sys\sys.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+sys\sys.c(41): warning:  #1-D: last line of file ends without a newline
+  }
+sys\sys.c: 2 warnings, 0 errors
+compiling uart.c...
+sys\soc_m3.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+sys\sys.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+sys\uart.h(98): warning:  #1-D: last line of file ends without a newline
+  #endif
+sys\uart.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=540 RO-data=108 RW-data=8 ZI-data=512  
+After Build - User command #1: fromelf -cvf .\Objects\soc_m3.axf --vhx --32x1 -o image.hex
+After Build - User command #2: fromelf -cvf .\Objects\soc_m3.axf -o image.txt
+".\Objects\soc_m3.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Program Files (x86)\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
